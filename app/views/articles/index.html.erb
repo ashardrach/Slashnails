@@ -1,0 +1,27 @@
+<h1>slashnails listing page</h1>
+
+<table>
+<thead>
+        <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Action</th>
+        
+        
+        
+        </tr>
+
+</thead>
+
+<% @articles.each do |article| %>
+<body>
+    <tr>
+        <td><%= article.title %></td>
+        <td><%= article.description %></td>
+        <td>Placeholder</td>
+    
+    </tr>
+    <% end %>
+</body>
+
+</table>
