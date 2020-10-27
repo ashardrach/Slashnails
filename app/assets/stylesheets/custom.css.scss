@@ -1,0 +1,48 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+.navbar {
+
+    background-color: pink !important;
+    
+    }
+
+    .nav-link {
+
+            color: white !important;
+
+    }
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: rgb(230, 15, 97);
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#home-container {
+    margin-top: 25px;
+}
+
+.jumbotron {
+    background-image: asset-url('slashnails.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 640px;
+}
+
+html,
+body {
+  height: 100%;
+  
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightpink;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
